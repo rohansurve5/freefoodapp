@@ -1,0 +1,94 @@
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/splash_constraint_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/splash_activity_splash_constraint_layout_background_color">
+
+	<ImageView
+		android:id="@+id/bitmap_image_view"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:scaleType="centerCrop"
+		android:src="@drawable/bitmap_6"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintHorizontal_weight="1"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="0dp"/>
+
+	<View
+		android:id="@+id/base_constraint_layout"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintHorizontal_weight="1"
+		app:layout_constraintLeft_toLeftOf="parent"
+		android:background="#000000"
+		android:alpha="0.3"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="0dp"/>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/view_constraint_layout"
+		android:layout_width="@dimen/splash_activity_view_constraint_layout_width"
+		android:layout_height="@dimen/splash_activity_view_constraint_layout_height"
+		android:layout_marginStart="@dimen/splash_activity_view_constraint_layout_margin_start"
+		android:layout_marginTop="500dp"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="41dp"
+		tools:layout_editor_absoluteY="549dp">
+	
+		<TextView
+			android:id="@+id/welcome_to_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:fontFamily="@font/font_inter_regular"
+			android:gravity="start"
+			android:text="@string/splash_activity_welcome_to_text_view_text"
+			android:textColor="#FFFFFF"
+			android:textSize="@dimen/splash_activity_welcome_to_text_view_text_size"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="0dp"/>
+	
+		<TextView
+			android:id="@+id/cookbook_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:fontFamily="@font/font_inter_bold"
+			android:gravity="start"
+			android:text="@string/splash_activity_cookbook_text_view_text"
+			android:textColor="#FFFFFF"
+			android:textSize="@dimen/splash_activity_cookbook_text_view_text_size"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/welcome_to_text_view"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="30dp"/>
+	
+		<Button
+			android:id="@+id/view_button"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/splash_activity_view_button_height"
+			android:background="@drawable/splash_activity_view_button_ripple"
+			android:fontFamily="@font/font_inter_bold"
+			android:gravity="center"
+			android:text="@string/splash_activity_view_button_text"
+			android:textColor="#FFFFFF"
+			android:textSize="@dimen/splash_activity_view_button_text_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintHorizontal_weight="1"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="138dp"/>
+	</android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

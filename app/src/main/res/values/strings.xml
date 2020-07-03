@@ -1,0 +1,22 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<string name="app_name">FoodScreen</string>
+	
+	<!-- Resources for HomeActivity -->
+	<string name="home_activity_amanda_james_text_view_hint">Amanda James</string>
+	<string name="home_activity_good_evening_text_view_text">Good Evening</string>
+	<string name="home_activity_amanda_james_text_view_text">Amanda James</string>
+	<string name="home_activity_ingredients_or_les_text_view_hint">5 ingredients or less</string>
+	<string name="home_activity_ingredients_or_les_text_view_text">5 ingredients or less</string>
+	<string name="home_activity_good_evening_text_view_hint">Good Evening</string>
+	<string name="home_activity_want_to_search_anyth_edit_text_hint">Want to search anything</string>
+	
+	<!-- Resources for SplashActivity -->
+	<string name="splash_activity_view_button_hint">Start Now</string>
+	<string name="splash_activity_welcome_to_text_view_hint">Welcome To</string>
+	<string name="splash_activity_cookbook_text_view_hint">Cookbook</string>
+	<string name="splash_activity_view_button_text">Start Now</string>
+	<string name="splash_activity_welcome_to_text_view_text">Welcome To</string>
+	<string name="splash_activity_cookbook_text_view_text">Cookbook</string>
+</resources>

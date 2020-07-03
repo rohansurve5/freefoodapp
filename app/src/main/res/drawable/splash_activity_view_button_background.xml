@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<corners android:radius="@dimen/splash_activity_view_button_radius"/>
+
+	<solid android:color="#FF7979"/>
+</shape>

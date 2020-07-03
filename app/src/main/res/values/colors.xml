@@ -1,0 +1,23 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<color name="color_click_overlay">#555555</color>
+	<color name="color_primary_dark">#000000</color>
+	<color name="color_primary">#000000</color>
+	<color name="material_bottom_sheet_item">#000000DE</color>
+	<color name="color_accent">#000000</color>
+	<color name="color_hint_text">#D0D1D5</color>
+	<color name="material_bottom_sheet_title">#0000008A</color>
+	
+	<!-- Resources for SplashActivity -->
+	<color name="splash_activity_base_constraint_layout_gradient_stop_color_2">#000000</color>
+	<color name="splash_activity_splash_constraint_layout_background_color">#FFFFFF</color>
+	<color name="splash_activity_base_constraint_layout_gradient_stop_color_1">#00000000</color>
+	
+	<!-- Resources for HomeActivity -->
+	<color name="home_activity_search_bar_constraint_layout_border_color">#FF7979</color>
+	<color name="home_activity_want_to_search_anyth_edit_text_background_color">#00000000</color>
+	<color name="home_activity_oval_constraint_layout_border_color">#FFFFFF</color>
+	<color name="home_activity_ingredients_or_les_text_view_text_color">#FF7979</color>
+	<color name="home_activity_home_constraint_layout_background_color">#FFFFFF</color>
+</resources>
